@@ -1,0 +1,38 @@
+.skills-section {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+
+.skills-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.skill-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.skill-card:hover {
+  background-color: #e7f1ff;
+  border-color: #0d6efd;
+  transform: translateY(-5px);
+}
+
+.skill-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #343a40;
+}
+
+.icon {
+  font-size: 2rem;
+}

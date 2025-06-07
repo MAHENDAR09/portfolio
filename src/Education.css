@@ -1,0 +1,86 @@
+.education-section {
+  padding: 60px 40px;
+  background-color: #f9fafb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.education-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #222;
+  margin-bottom: 50px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 30px;
+  border-left: 3px solid #007acc;
+  transition: border-left-width 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline.thick-line {
+  border-color: #e40505;
+  box-shadow: 0 0 8px #005ea2aa;
+}
+
+.timeline-item {
+  position: relative;
+  padding: 20px 0 20px 40px;
+  cursor: pointer;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -12px;
+  top: 30px;
+  width: 20px;
+  height: 20px;
+  background-color: #67757e;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px #007acc44;
+  transition: width 0.3s ease, height 0.3s ease, left 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-item:hover .timeline-dot {
+  width: 26px;
+  height: 26px;
+  left: -170px;
+  background-color: #e1108e;
+  box-shadow: 0 0 8px #cc00e7aa;
+}
+
+.timeline-content {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px);
+}
+
+.degree {
+  font-size: 18px;
+  font-weight: 600;
+  color: #007acc;
+  margin-bottom: 5px;
+}
+
+.institution {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.year-score {
+  font-size: 13px;
+  color: #777;
+}

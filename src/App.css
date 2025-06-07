@@ -1,0 +1,19 @@
+/* Global styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8; /* Soft Light Blue Gray */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333; /* Dark gray text */
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
