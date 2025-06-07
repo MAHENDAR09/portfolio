@@ -14,14 +14,14 @@ const educationData = [
     institution: 'Government Institute of Electronics',
     board: 'SBTET Board',
     year: '2020 – 2022',
-    score: '92%'
+    score: '7.2 CGPA'
   },
   {
     degree: '10th Grade',
     institution: 'ZPHS School',
     board: 'Telangana State Board',
     year: '2019 – 2020',
-    score: '9.7 GPA'
+    score: ' 8.3 GPA'
   }
 ];
 
