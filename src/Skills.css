@@ -9,8 +9,20 @@
   font-size: 2.5rem;
   font-weight: bold;
   color: #0d6efd;
+  margin-bottom: 40px;
 }
 
+/* Category Title */
+.skills-section h4 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 20px;
+  border-left: 4px solid #0d6efd;
+  padding-left: 10px;
+}
+
+/* Skill Card */
 .skill-card {
   background-color: #f8f9fa;
   padding: 20px;
@@ -18,6 +30,7 @@
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   border: 2px solid transparent;
+  height: 100%;
 }
 
 .skill-card:hover {
@@ -26,13 +39,17 @@
   transform: translateY(-5px);
 }
 
+/* Skill Icon */
+.icon {
+  font-size: 2rem;
+}
+
+/* Skill Name */
 .skill-name {
   font-size: 1.1rem;
   font-weight: 600;
   margin-top: 10px;
   color: #343a40;
-}
-
-.icon {
-  font-size: 2rem;
+  word-wrap: break-word;
+  line-height: 1.3;
 }

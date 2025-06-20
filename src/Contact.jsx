@@ -84,7 +84,7 @@ const Contact = () => {
           <p><strong>Location:</strong> Hyderabad, India</p>
 
           <h3 style={{ marginTop: '30px' }}>Coding Profiles</h3>
-          <div className="coding-profiles" aria-label="Coding Profiles">
+          <div className="Profiles" aria-label="Coding Profiles">
             <a
               href="https://github.com/MAHENDAR09"
               target="_blank"
